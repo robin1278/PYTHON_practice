@@ -1,0 +1,12 @@
+X=input("welcome to the tip calculator.")
+Y=(input("Please enter the amount of total bill Rs. "))
+Z=(input("What percentage tip would you like to give ? 10, 12 or 15? "))
+W=(input("how many people to split the bill? "))
+print(Z)
+print(type(Z))
+A=(Y/Z)
+# print(A)
+B=(Y+A)
+c=(B/W)
+print("Each person should pay: " + str(c) )
+
